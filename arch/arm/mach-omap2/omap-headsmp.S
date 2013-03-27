@@ -17,6 +17,7 @@
 
 #include <linux/linkage.h>
 #include <linux/init.h>
+.arch_extension sec
 
 /* Physical address needed since MMU not enabled yet on secondary core */
 #define OMAP4_AUX_CORE_BOOT1_PA			0x48281804

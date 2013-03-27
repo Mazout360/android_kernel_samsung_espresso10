@@ -18,6 +18,7 @@
 #include <asm/pgtable.h>
 
 #include "proc-macros.S"
+.arch_extension sec
 
 #define TTB_S		(1 << 1)
 #define TTB_RGN_NC	(0 << 3)

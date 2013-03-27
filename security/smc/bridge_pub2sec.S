@@ -18,6 +18,7 @@
  */
 
 .text
+.arch_extension sec
 
 #define SMICODEPUB_IRQ_END   0xFE
 #define SMICODEPUB_FIQ_END   0xFD

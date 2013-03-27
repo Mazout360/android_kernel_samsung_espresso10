@@ -19,6 +19,7 @@
 #include <mach/omap4-common.h>
 
 #include "omap4-sar-layout.h"
+.arch_extension sec
 
 #ifdef CONFIG_SMP
 
